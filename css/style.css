@@ -1,3 +1,4 @@
+/*#cee145;*/
 * {
   margin: 0px;
   padding: 0px;
@@ -12,10 +13,60 @@
   background-size: 100% 100%;
 }
 
+.main-sec-line {
+  margin-top: 12%;
+  width: 100px;
+  height: 5px;
+  background-color: #cee145;
+}
+
+/*hesder-menu*/
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+#text-color h1 {
+  line-height: 65px;
+  font-size: 70px;
+  font-weight: bolder;
+}
+#text-color h1 span {
+  color: #cee145;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-5px, 5px);
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
 .header-section {
   max-width: 100%;
   text-align: center;
-  padding-top: 35px;
+}
+
+.header-logo {
+  display: flex;
+}
+.header-logo span p {
+  font-size: 20px;
 }
 
 .header-media span i {
@@ -28,19 +79,37 @@
   margin-left: -80px;
 }
 
-.main-sec-one {
-  margin-top: 100px;
+.text-sec-two {
+  padding: 150px 0px 0px 0px;
 }
 
 .footer-fixed {
   position: absolute;
   bottom: 0px;
+  max-width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
+  background-color: #b3b3b3;
+  color: white;
+  text-align: center;
+}
+
+.header-section {
+  position: absolute;
+  top: 0px;
+  max-width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #b3b3b3;
+  color: white;
 }
 
 .our-specialization {
   height: 100vh;
-  max-width: 100%;
 }
 
 .right-specialization-dots {
@@ -54,6 +123,7 @@
   width: 100%;
   object-fit: cover;
   background-size: 100% 100%;
+  padding: 100px 0px 50px 0px;
 }
 #latest-project .latest-project-cols {
   border: 1px solid #fff;
@@ -75,6 +145,80 @@
   padding: 100px 0px 50px 0px;
   float: left;
   width: 100%;
+}
+
+#testonomial {
+  height: 100vh;
+  width: 100%;
+  background-size: 100% 100%;
+  background: url(../images/bg3.jpg);
+}
+
+.padd-top-bottom {
+  padding: 100px 0px 50px 0px;
+  float: left;
+  width: 100%;
+}
+
+#text-sec-one P {
+  transform: rotate(-90deg);
+  margin-left: -140px;
+}
+
+#coffee-section {
+  height: 100vh;
+  width: 100%;
+}
+
+.padd-top-bottom {
+  padding: 100px 0px 50px 0px;
+  float: left;
+  width: 100%;
+}
+.padd-top-bottom h3 {
+  font-weight: bolder;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: auto;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+}
+
+#googleMap {
+  width: 100%;
+  height: 400px;
+}
+
+#header-logo {
+  text-align: left;
+  margin-left: 10px;
+}
+#header-logo h2 {
+  font-size: 18px;
+  font-weight: bolder;
+  line-height: 100%;
+  margin: 0;
+}
+#header-logo p {
+  font-size: 14px;
+  line-height: 100%;
+  margin: 0;
+}
+
+.header-section {
+  padding: 10px 0px 10px 0px;
+}
+.header-section .header-row {
+  max-width: 100%;
+}
+.header-section p {
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
