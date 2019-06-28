@@ -76,11 +76,22 @@
 
 #text-sec-one P {
   transform: rotate(-90deg);
-  margin-left: -80px;
 }
 
 .text-sec-two {
   padding: 150px 0px 0px 0px;
+}
+
+.footer-text-color {
+  word-spacing: 15px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.footer-text-color p {
+  margin-bottom: 0px;
+}
+.footer-text-color p span {
+  color: #cee145;
 }
 
 .footer-fixed {
@@ -94,6 +105,7 @@
   background-color: #b3b3b3;
   color: white;
   text-align: center;
+  padding: 10px 0px 10px 0px;
 }
 
 .header-section {
@@ -112,11 +124,51 @@
   height: 100vh;
 }
 
-.right-specialization-dots {
-  background: url(../images/dots.png);
-  background-repeat: repeat;
+.specialization-img-trans {
+  position: relative;
 }
 
+.right-specialization {
+  display: flex;
+  z-index: -1;
+  background: url(../images/dots.png);
+  background-repeat: repeat;
+  width: 100%;
+  padding: 380px 110px 0px 0px;
+  transform: translate(-54px, -300px);
+  position: absolute;
+  left: 0;
+}
+
+.specialization-ourtext {
+  display: inline-flex;
+  position: relative;
+  top: -145px;
+  left: 60px;
+}
+.specialization-ourtext span {
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 130%;
+  padding-top: 112px;
+  padding-left: 10px;
+}
+.specialization-ourtext p {
+  font-weight: bold;
+  font-size: 170px;
+}
+
+.latest-project-header h1 {
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+
+/*.right-specialization-dots{
+	 background: url(../images/dots.png);
+	 background-repeat: repeat;
+	 height: 100%;
+}*/
 #latest-project {
   height: 100vh;
   background: url(../images/bg2-6.jpg);
@@ -126,10 +178,28 @@
   padding: 100px 0px 50px 0px;
 }
 #latest-project .latest-project-cols {
+  color: white;
+  text-align: left;
+  padding: 20px 20px 0px 20px;
   border: 1px solid #fff;
   width: 100%;
   min-height: 200px;
   margin-bottom: 30px;
+}
+#latest-project .latest-project-cols:hover {
+  background-color: #cee145;
+  color: #000000;
+}
+#latest-project .latest-project-cols:hover p span {
+  font-size: 18px;
+}
+#latest-project .latest-project-cols p {
+  font-size: 25px;
+  font-weight: bolder;
+}
+#latest-project .latest-project-cols p span {
+  font-size: 18px;
+  color: #b3b3b3;
 }
 
 #our-partner {
@@ -138,7 +208,7 @@
 }
 
 .our-partner-columns {
-  padding: 0px 30px 30px 0px;
+  padding: 0px 70px 70px 0px;
 }
 
 .padd-top-bottom {
@@ -158,11 +228,6 @@
   padding: 100px 0px 50px 0px;
   float: left;
   width: 100%;
-}
-
-#text-sec-one P {
-  transform: rotate(-90deg);
-  margin-left: -140px;
 }
 
 #coffee-section {
@@ -200,7 +265,7 @@
   margin-left: 10px;
 }
 #header-logo h2 {
-  font-size: 18px;
+  font-size: 23px;
   font-weight: bolder;
   line-height: 100%;
   margin: 0;
@@ -214,11 +279,89 @@
 .header-section {
   padding: 10px 0px 10px 0px;
 }
-.header-section .header-row {
-  max-width: 100%;
-}
 .header-section p {
   margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.row {
+  max-width: 72.5rem;
+}
+
+.rotated-text {
+  position: relative;
+}
+.rotated-text p {
+  font-weight: 500;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -27%;
+}
+
+.main-cont-specialization h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+.main-cont-specialization h3 span {
+  color: #cee145;
+}
+
+.specialization-home-nav ul {
+  color: #0000007d;
+  line-height: 350%;
+  margin-left: 0px;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+/*.rotated-text
+{
+	position: relative;
+
+	p {
+		font-weight: 500;
+       color:white;
+
+	    transform: rotate(-90deg);
+	    position: absolute;
+
+	}
+}*/
+.our-partner-heading h1 {
+  padding-bottom: 80px;
+}
+
+.testonomial-left {
+  color: white;
+  text-transform: uppercase;
+}
+.testonomial-left i {
+  font-size: 100px;
+  color: #cee145;
+  margin-bottom: 100px;
+}
+
+.testonomial-right {
+  color: white;
+}
+
+.coffee-header h1 {
+  padding-bottom: 80px;
+  font-weight: bold;
+}
+
+.coffee-bottom-section {
+  display: flex;
+}
+.coffee-bottom-section h4 {
+  font-weight: bolder;
+}
+.coffee-bottom-section h5 {
+  font-weight: 400;
+}
+.coffee-bottom-section p {
+  color: #8c8c8c;
 }
 
 /*# sourceMappingURL=style.css.map */
