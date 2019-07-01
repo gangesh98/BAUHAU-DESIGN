@@ -8,3 +8,13 @@ var mapProp= {
 };
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
+
+$(document).ready(function(){
+  $('.testonomial-right').slick({
+    
+  });
+
+$('.testonomial-right').slick({
+  rtl: true
+});
+});
