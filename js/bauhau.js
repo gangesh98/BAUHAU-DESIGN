@@ -18,3 +18,19 @@ $('.testonomial-right').slick({
   rtl: true
 });
 });
+
+
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 50) {
+	    $(".header-section, .footer-fixed").css("background" , "#b3b3b3");
+	  }
+
+	  else{
+		  $(".header-section, .footer-fixed").css("background" , "transparent");  	
+	  }
+  })
+})
+

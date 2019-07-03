@@ -84,6 +84,12 @@
   }
 }
 .text-sec-two{padding: 220px 0px 0px 0px;}
+@media only screen and (max-width: 639px) { 
+.text-sec-two{
+ padding: 160px 0px 0px 0px;
+
+}
+}
 .footer-text-color{
 	 word-spacing: 15px;
     font-size: 14px;
@@ -104,7 +110,7 @@
  left: 0;
  bottom: 0;
  width: 100%;
- background-color:#b3b3b3;
+/* background-color:#b3b3b3;*/
  color: white;
  text-align: center;
  padding: 10px 0px 10px 0px;
@@ -120,7 +126,6 @@
  left: 0;
  top: 0;
  width: 100%;
- background-color:#b3b3b3;
  color: white;
 }
 .our-specialization{
@@ -448,6 +453,7 @@ color: white;
 }
 
 .coffee-bottom-section{
+ 
 	margin-bottom: 50px;
 	display: flex;
 	h4{
@@ -637,7 +643,7 @@ color: white;
 	 }
    }
 
-.text-sec-two ,#text-color{
+.text-sec-two, #text-color{
 
 	h1{
 		font-size: 45px;
@@ -651,3 +657,30 @@ color: white;
 
 }
 }
+.coffee-section-border-right{
+  border-right:1px solid #ccc;;
+  padding: 0px 60px 0px 0px;
+}
+
+#coffee-section-border-right{
+  border-right:1px solid #ccc;;
+  padding: 0px 80px 0px 0px;
+  height: 80%;
+}
+@media only screen and (max-width: 639px) {
+  #coffee-section-border-right, .coffee-section-border-right{
+    border: none;
+    
+  }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+  #main-banner, #our-partner, #testonomial, #coffee-section {
+    height: 100%;
+  }
+
+
+
+
+  }
