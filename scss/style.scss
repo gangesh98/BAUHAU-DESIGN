@@ -1,4 +1,7 @@
-
+*{
+  margin:0px;
+  padding: 0px;
+}
 #main-banner{
   color: white;
   background: url(../images/bg1.jpg);
@@ -63,9 +66,10 @@
 	}
 }
 .header-section{
-
+background: transparent;
 	max-width: 100%;
 	text-align: center;	
+  transition: background 0.7s;
 }
 .header-logo{
 	display: flex;
@@ -79,7 +83,7 @@
 .header-media{
 
 	span i{
-    margin-left: 20px;
+  /*  margin-left: 20px;*/
 	 margin-right: 20px;
   }
 }
@@ -102,7 +106,9 @@
 	}
 }
 .footer-fixed{
+  background: transparent;
  z-index: 1000;
+ transition: background 0.7s;
  position: absolute;
  bottom: 0px;
  max-width: 100%;
@@ -277,7 +283,7 @@
 }
 
 .header-section {
-	padding: 10px 0px 10px 0px;
+	padding: 30px 0px 10px 0px;
 
     z-index: 1000;
 
@@ -286,6 +292,9 @@
 		font-size: 15px;
     font-weight: 500;
 	}
+  @media only screen and (max-width: 639px) { 
+    padding: 0px 0px 10px 0px;
+  }
 }
 
 .row {
@@ -319,7 +328,7 @@
 .specialization-home-nav{
 	ul{
 		color: #0000007d;
-		line-height:350%;
+		line-height:290%;
 		margin-left: 0px;
 		text-transform: uppercase;
 		list-style-type: none;
@@ -463,10 +472,12 @@ color: white;
 	h5{
 		font-weight: bolder;
     font-size: 15px;
+    word-break: break-all;
 
 	}
 	p{
 		color: #8c8c8c;
+    word-break: break-all;
 	}
 }
 .coffee-bottom-section{
@@ -518,7 +529,7 @@ color: white;
 @media only screen and (max-width: 1023px) {
 .header-media span i {
     
-    margin-right: 0px;
+    margin-right: 20px;
     
 }
 }
@@ -576,13 +587,13 @@ color: white;
 
 @media only screen and (max-width: 639px) {
 #our-partner {
-     height:100%; 
+  height:100%; 
  }
 }
 @media only screen and (max-width: 639px) {
 #testonomial {
-     height:100%; 
- }
+   height:100%; 
+  }
 }
 
 
@@ -617,45 +628,45 @@ color: white;
 	color: #fff;
 }
 @media only screen and (max-width: 639px) {
-.latest-project-header-small{
-	text-align: center;
-}
+  .latest-project-header-small{
+  	text-align: center;
+  }
 }
 @media only screen and (max-width: 639px) {
-.rotated-text-project {
-	p{
-	padding-bottom: none!important;
+  .rotated-text-project {
+  	p{
+  	 padding-bottom: none!important;
+     }
+  }
 }
-}
-}
-@media only screen and (max-width: 1024px) {
-	.header-menu{
-		text-align: left;
-	}
-	.header-comunication{
-		order: 2;
-		text-align: right;
+@media only screen and (max-width: 639px) {
+  	.header-menu{
+  	/*	text-align: left;*/
+  	}
+  	.header-comunication{
+  		order: 2;
+  		text-align: right;
 
 
-		span i{
-   margin-right: 10px;
-   margin-left: 0px;
-	 }
+  		span i{
+     margin-right: 10px;
+     margin-left: 0px;
+  	 }
+     }
+
+   .text-sec-two, #text-color{
+
+  	h1{
+  		font-size: 45px;
+      line-height: 100%;
+
+  		span{
+
+  		 font-size: 45px;
+  		}
+  	}
+
    }
-
-.text-sec-two, #text-color{
-
-	h1{
-		font-size: 45px;
-    line-height: 100%;
-
-		span{
-
-		font-size: 45px;
-		}
-	}
-
-}
 }
 .coffee-section-border-right{
   border-right:1px solid #ccc;;
@@ -676,11 +687,14 @@ color: white;
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  {
-  #main-banner, #our-partner, #testonomial, #coffee-section {
+  #main-banner, #our-partner, #testonomial, #coffee-section, #latest-project, .our-specialization{
     height: 100%;
   }
+}
 
 
+.colored-bg {
+  background: #b3b3b3;
+  transition: background 0.7s;
+}
 
-
-  }

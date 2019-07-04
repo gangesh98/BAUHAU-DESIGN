@@ -25,11 +25,11 @@ $(document).ready(function(){
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
 	  if (scroll > 50) {
-	    $(".header-section, .footer-fixed").css("background" , "#b3b3b3");
+	    $(".header-section, .footer-fixed").addClass("colored-bg");
 	  }
 
 	  else{
-		  $(".header-section, .footer-fixed").css("background" , "transparent");  	
+		$(".header-section, .footer-fixed").removeClass("colored-bg");  	
 	  }
   })
 })
