@@ -24,7 +24,7 @@ $('.testonomial-right').slick({
 $(document).ready(function(){
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
-	  if (scroll > 50) {
+	  if (scroll > 450) {
 	    $(".header-section, .footer-fixed").addClass("colored-bg");
 	  }
 
