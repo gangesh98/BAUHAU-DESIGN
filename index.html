@@ -8,18 +8,21 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+    <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
  <body>
-    <div class="wrapper">
+    <div class="wrapper" id="fullpage">
         <!-- main-banner -->
     
-        <section id="main-banner" >
+        <section id="main-banner" class="vertical-scrolling ">
 
 
-            <header class="header-section">
+            <header class="header-section   ">
                <div class="row header-row align-right ">
                     <div class="columns header-logo margin-top-header align-left medium-3 small-6 large-3 align-self-middle" >
                       <div>
@@ -43,14 +46,12 @@
                     </span>
                     </div>
 
-                    <div class="columns large-3 medium-2 margin-top-header text-right  small-6  align-self-middle header-menu">
+                    <div class="columns large-3 medium-2 margin-top-header text-right  small-6  align-self-middle header-menu l-right toggle-menu">
                         <div class="container" onclick="myFunction(this)">
                           <div class="bar1"></div>
                           <div class="bar2"></div>
                           <div class="bar3"></div>
-                        </div>
-
-                        
+                        </div>   
                     </div>
                   </div>
 
@@ -58,7 +59,7 @@
 
         
             <section>
-                <div class="row main-sec-one ">
+                <div class="row main-sec-one"  class="scroll-icon ">
                    <div class="columns large-1 text-left small-2 align-self-middle rotated-text" id="text-sec-one">
                     <p>INTRODUCE</p>
                    </div>
@@ -79,7 +80,7 @@
          <!-- main-banner End-->
 
         <!-- our-speclization-start-->
-        <section id="our-specialization" class="padd-top-bottom" >
+        <section id="our-specialization" class="padd-top-bottom vertical-scrolling fp-tableCell" class="scroll-icon" >
 
         <div class="row  our-specialization">
             <div class="columns large-1 small-2 left-specialization rotated-text"><p>What We do</p></div>
@@ -120,7 +121,7 @@
         <!-- our-speclization-end -->
 
         <!-- latest-project-start -->
-      <section id="latest-project" class="padd-top-bottom" >
+      <section id="latest-project" class="padd-top-bottom vertical-scrolling fp-tableCell" class="scroll-icon" >
 
             <div class=" row latest-project-header">
                 <div class="columns large-11 large-offset-1 medium-11 medium-offset-1 small-10 small-offset-2"><h1>LATEST PROJECTS</h1></div>
@@ -163,7 +164,7 @@
              
       </section>
                 <!-- OUR PARTNERS-START -->
-      <section id="our-partner" class="padd-top-bottom" >
+      <section id="our-partner" class="padd-top-bottom vertical-scrolling fp-tableCell" class="scroll-icon" >
          
          <div class=" row our-partner-heading ">
             <div class="columns small-10 medium-11 small-offset-2 medium-offset-1 large-11"><h1>OUR PARTNERS</h1></div>
@@ -172,7 +173,7 @@
                 
             </div> 
 
-            <div class="columns large-11 medium-11 small-10">  
+            <div class="columns large-11 medium-11 small-10" class="scroll-icon">  
          <div class="row wrap">
            
 
@@ -193,7 +194,7 @@
         </section>
 
             <!-- OUR PARTNERS-START -->
-            <section id ="testonomial" class="padd-top-bottom" >
+            <section id ="testonomial" class="padd-top-bottom vertical-scrolling fp-tableCell" class="scroll-icon" >
 
              <div class="row ">
 
@@ -223,7 +224,7 @@
 
             <!-- OUR PARTNERS-end -->
             <!-- enjoy-coffee-section-start -->
-            <section id ="coffee-section" class="padd-top-bottom" >
+            <section id ="coffee-section" class="padd-top-bottom vertical-scrolling fp-tableCell" class="scroll-icon" >
              
              <div class="row">
                 <div class="columns large-1 small-2 medium-1 rotated-text"><p>CONTACT</p></div>
@@ -300,6 +301,9 @@
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
-    <script type="text/javascript" src="js/bauhau.js"></script>
-    </body>
+    <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
+   <script type="text/javascript" src="js/bauhau.js"></script>
+  </body>
 </html>
