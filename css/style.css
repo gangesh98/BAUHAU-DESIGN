@@ -781,7 +781,7 @@ h1 a {
 
 .toggle-menu {
   width: 50px;
-  height: 50px;
+  /*height: 50px;*/
   display: inline-block;
   position: relative;
   top: 10px;
@@ -840,7 +840,7 @@ nav {
 
 .open-menu ~ nav {
   opacity: 1;
-  padding: 80px 0;
+  /*  padding: 80px 0;*/
   z-index: 15;
   height: calc(90vh - 70px);
 }
@@ -893,17 +893,6 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 
 /* SECTION STYLES - fullPage.js 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-h2 {
-  text-transform: lowercase;
-  font-size: 4em;
-  margin-bottom: 20px;
-}
-
-h3 {
-  font-weight: 300;
-  font-size: 2.8em;
-}
-
 /* SLIDENAV STYLES - fullPage.js 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #fp-nav ul li a span,
@@ -965,7 +954,7 @@ h3 {
 .fp-tableCell {
   vertical-align: none;
   height: auto;
-  display: flex;
+  /* display:flex;*/
 }
 
 #our-specialization, #our-partner {
