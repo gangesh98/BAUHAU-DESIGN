@@ -9,6 +9,7 @@ var mapProp= {
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 
+
 $(document).ready(function(){
   $('.testonomial-right').slick({
     
@@ -23,16 +24,17 @@ $('.testonomial-right').slick({
 
 $(document).ready(function(){
   $(window).scroll(function(){
-  	var scroll = $(window).scrollTop();
-	  if (scroll > 450) {
-	    $(".header-section, .footer-fixed").addClass("colored-bg");
-	  }
+    var scroll = $(window).scrollTop();
+    if (scroll > 450) {
+      $(".header-section, .footer-fixed").addClass("colored-bg");
+    }
 
-	  else{
-		$(".header-section, .footer-fixed").removeClass("colored-bg");  	
-	  }
+    else{
+    $(".header-section, .footer-fixed").removeClass("colored-bg");    
+    }
   })
 })
+
 
 
 
@@ -42,10 +44,12 @@ var $nav = $('nav');
 
 
 
-// toggle menu 
+//toggle menu 
 $header_top.find('a').on('click', function() {
   $(this).parent().toggleClass('open-menu');
 });
+
+
 
 
 
@@ -100,3 +104,11 @@ $('#fullpage').fullpage({
     }
   } 
 }); 
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
