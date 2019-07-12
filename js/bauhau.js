@@ -24,18 +24,18 @@ $('.testonomial-right').slick({
   slidesToShow: 1,
   adaptiveHeight: true
 });
+});
 
-  $(window).scroll(function(){
+$(window).scroll(function(){
     var scroll = $(window).scrollTop();
-    if (scroll > 2) {
+    if (scroll > 200) {
       $(".header-section, .footer-fixed").addClass("colored-bg");
     }
 
     else{
     $(".header-section, .footer-fixed").removeClass("colored-bg");    
     }
-  });
-});
+    });
 
 
 function openNav() {
@@ -104,5 +104,8 @@ $('#fullpage').fullpage({
     }
   } 
 }); 
+
+
+
 
 
